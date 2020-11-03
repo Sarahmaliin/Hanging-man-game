@@ -1,0 +1,53 @@
+html{
+    max-height: 100vh;
+    max-width: 1440px;
+}
+
+svg {height: 80%;
+    width: 80%;
+}
+
+
+main, header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2em;
+    margin: 1em;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.first-box{
+    text-align: center;
+}
+
+.btns{
+    max-width: 70%;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 699px){
+    .btns{
+        max-width: 40%;
+    }
+}
